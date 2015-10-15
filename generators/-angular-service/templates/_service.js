@@ -1,7 +1,7 @@
 define(['gumga-class', 'abstract-service'],
     function (GumgaClass, AbstractService) {
         function <%= ServiceName %>Service($http) {
-            AtividadeOnsService.super.constructor.call(this, $http);
+            <%= ServiceName %>.super.constructor.call(this, $http);
             this.autoCompleteUrl = '<%= AutoCompleteUrl %>';
         }
 
